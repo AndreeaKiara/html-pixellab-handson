@@ -16,7 +16,115 @@
 </head>
 
 <body>
+  <h1>Welcome to our newsletter</h1>
+  <h2>Newsletter Form</h2>
+  <p>
+    <img
+      src="images/newsletter.jpg"
+      alt="Image with the word Newsletter in a bold font"
+    >
+  </p>
+  <p>
+    Subscribe <b>now</b> for our best offers!
+  </p>
+  <p>
+    <a href="#form">Go to the first paragraph</a>
+    <a href="#secondParagraph">Go to the second paragraph</a>
+    <a href="#thirdParagraph">Go to the third paragraph</a>
+    <a href="#thirdParagraph">Go to the third paragraph</a>
+  </p>
+  <p>
+    <a href="#lastParagraph">Go to the last paragraph</a>
+  </p>
 
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, molestias quam provident debitis aperiam, nam
+    magnam fugiat atque aspernatur magni nostrum, vero consequatur harum quidem totam neque quos quibusdam nulla!
+  </p>
+  <p id="secondParagraph">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nulla dolore eos alias voluptatibus ipsam cupiditate
+    neque incidunt quasi debitis accusamus, possimus deleniti porro dolor aliquid aperiam eaque doloremque explicabo.
+  </p>
+  <p id="#thirdParagraph">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni porro consequuntur distinctio quam debitis delectus
+    laudantium facilis incidunt quasi numquam. Quos sed illo obcaecati fugiat, minus fuga officia non nemo!
+  </p>
+
+  <form id="form">
+    <fieldset>
+      <legend>Subscribe:</legend>
+      <label for="name">Name*</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+      <label for="surname">Surname*</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      >
+      <label for="email">Email*</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      >
+
+      <input
+        type="radio"
+        name="gender"
+        value="male"
+        id="male"
+        checked
+      >
+      <label for="male">Male</label>
+
+
+      <input
+        type="radio"
+        name="gender"
+        value="female"
+        id="female"
+      >
+      <label for="female">Female</label>
+
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      >
+      <label for="na">N/A</label>
+      <label for="gdpr-consent">GDPR Consent</label>
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+      <label for="subscribe"><i>we will send you emails</i></label>
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+      >
+
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >Submit</button>
+
+
+    </fieldset>
+  </form>
 
   <div
     class="pixeltab-host"

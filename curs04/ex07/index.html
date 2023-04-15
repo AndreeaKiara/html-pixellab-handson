@@ -16,6 +16,282 @@
 </head>
 
 <body>
+  <h1>Place Order</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempore soluta officia non porro eum saepe
+    aspernatur, eius odit ab. Dignissimos rerum exercitationem a unde iste neque quibusdam sed consequatur.</p>
+  <h2>Products</h2>
+  <ol>
+    <li>
+      <p>
+        <img
+          src="images/mouse.jpg"
+          alt="Image of a mouse with sidebuttons"
+        >
+      </p>
+    </li>
+    <li>
+      <p>
+        <img
+          src="images/extension_chord.jpg"
+          alt="Image of a white extension chord"
+        >
+      </p>
+    </li>
+    <li>
+      <p>
+        <img
+          src="images/phone.jpg"
+          alt="Image of a smartphone"
+        >
+      </p>
+    </li>
+  </ol>
+
+  <h2>Order now</h2>
+  <p>On our website <i>no account is needed</i>.</p>
+  <p>This is the <b>guest checkout</b>, thank you for your order!</p>
+
+  <form>
+    <fieldset>
+      <legend>Personal Information</legend>
+
+      <label for="name">Name*</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+      <label for="surname">Surname*</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      >
+      <label for="email">Email*</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      >
+      <label for="phone">Phone*</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        required
+      >
+
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+      <label for="male">Male</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+      <label for="female">Female</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      >
+      <label for="na">N/A</label>
+
+    </fieldset>
+
+
+    <fieldset>
+      <legend>Address</legend>
+      <label for="address1">Address Line 1*</label>
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        placeholder="Address Line 1"
+        required
+      >
+      <label for="address2">Address Line 2*</label>
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        placeholder="Address Line 2"
+        required
+      >
+      <label for="address-name">Address Name*</label>
+      <input
+        type="text"
+        name="address-name"
+        id="address-name"
+        placeholder="Name"
+        required
+      >
+      <label for="address-surname">Address Surname*</label>
+      <input
+        type="text"
+        name="address-surname"
+        id="address-surname"
+        placeholder="Surname"
+        required
+      >
+      <label for="address-phone">Address Phone*</label>
+      <input
+        type="tel"
+        name="address-phone"
+        id="address-phone"
+        placeholder="Phone"
+        required
+      >
+
+      <label for="city">City*</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="City"
+        required
+      >
+      <label for="state">State*</label>
+      <select
+        name="state"
+        id="state"
+        required
+      >
+        <option value="">--select--</option>
+        <option value="alabama">Alabama</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="newYork">New York</option>
+      </select>
+
+      <label for="postcode">Postcode*</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Postcode"
+        required
+      >
+
+
+    </fieldset>
+    <fieldset>
+      <legend>Card Information</legend>
+
+      <label for="card-number">Card Number*</label>
+      <input
+        type="text"
+        name="card-number"
+        id="card-number"
+        placeholder="Card Number"
+        required
+      >
+      <label for="card-name">Name on card*</label>
+      <input
+        type="text"
+        name="card-name"
+        id="card-name"
+        placeholder="Name on card"
+        required
+      >
+      <label for="card-expiry-month">Expiry Month*</label>
+      <select
+        name="card-expiry-month"
+        id="card-expiry-month"
+        required
+      >
+        <option value="">--select--</option>
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="august">August</option>
+        <option value="september">September</option>
+        <option value="october">October</option>
+        <option value="november">November</option>
+        <option value="december">December</option>
+      </select>
+      <label for="card-expiry-year">Expiry Year*</label>
+      <select
+        name="card-expiry-year"
+        id="card-expiry-year"
+        required
+      >
+        <option value="">--select--</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+      </select>
+      <label for="card-cvv">Card CVV*</label>
+      <input
+        type="text"
+        name="card-cvv"
+        id="card-cvv"
+        placeholder="CVV"
+        required
+      >
+    </fieldset>
+    <fieldset>
+      <legend>Form Controls</legend>
+
+
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        required
+      >
+      <label for="terms"><a
+          href=""
+          title="terms and conditions"
+        >terms and conditions</a> Terms*</label>
+
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+        required
+      >
+      <label for="subscribe">Subscribe*</label>
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+        required
+      >
+      <label for="gdpr-consent">GDPR Consent</label>
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >Submit</button>
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
+
+    </fieldset>
+  </form>
+
 
 
   <div

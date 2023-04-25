@@ -16,43 +16,60 @@
 </head>
 
 <body>
+  <!-- Aici nu sunt sigura daca e okay cu bara dintre elemente pe linie separata -->
+  <p>
+    <a
+      href=""
+      title="home"
+    >Home</a>
+    |
+    <a
+      href="#create-account"
+      title="create-account"
+    ><b>Create Account</b></a>
+    |
+    <a
+      href=""
+      title="your-account"
+    >Your Account</a>
+    |
+    <a
+      href=""
+      title="customer-service"
+    >Customer Service</a>
+    |
+    <a
+      href=""
+      title="contact"
+    >Contact</a>
+  </p>
+
   <h1>Create Account</h1>
+
   <p>
     <img
       src="images/your-account.jpg"
       alt="Image of a blue house with a lock and the text Your Account next to it"
     >
   </p>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore magni, dolore maxime ut eum consequatur minima
-    vel eligendi saepe reiciendis amet corrupti iure. Nihil voluptates animi repellat sequi molestias explicabo.
-  </p>
-  <h2 id="create-account">Create an account</h2>
+
   <p>
     This is your account section.
   </p>
 
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore magni, dolore maxime ut eum consequatur minima
+    vel eligendi saepe reiciendis amet corrupti iure. Nihil voluptates animi repellat sequi molestias explicabo.
+  </p>
 
+
+  <h2 id="create-account">Create an account</h2>
 
   <form>
     <fieldset>
       <legend>Account data:</legend>
-      <label for="name">Name*</label>
-      <input
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Name"
-        required
-      >
-      <label for="surname">Surname*</label>
-      <input
-        type="text"
-        name="surname"
-        id="surname"
-        placeholder="Surname"
-        required
-      >
+      <label for="title">Title:</label>
+      <label for="male">Mr</label>
       <input
         type="radio"
         name="gender"
@@ -60,24 +77,48 @@
         value="male"
         checked
       >
-      <label for="male">Male</label>
+
+      <label for="female">Ms</label>
       <input
         type="radio"
         name="gender"
         id="female"
         value="female"
       >
-      <label for="female">Female</label>
+
+      <label for="na">Unspecified</label>
       <input
         type="radio"
         name="gender"
         id="na"
         value="na"
       >
-      <label for="na">N/A</label>
+      <!-- Folosesc br in cazul asta ca sa arate ca in design -->
+
       <br>
       <br>
-      <label for="username">Username*</label>
+
+      <label for="name">*Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+      <label for="surname">*Surname</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      >
+
+      <br>
+      <br>
+
+      <label for="username">*Username</label>
       <input
         type="text"
         name="username"
@@ -85,8 +126,11 @@
         placeholder="Username"
         required
       >
+
       <br>
-      <label for="email">Email*</label>
+      <br>
+
+      <label for="email">*Email</label>
       <input
         type="email"
         name="email"
@@ -94,8 +138,11 @@
         placeholder="Email"
         required
       >
+
       <br>
-      <label for="password">Password*</label>
+      <br>
+
+      <label for="password">*Password</label>
       <input
         type="password"
         name="password"
@@ -103,8 +150,11 @@
         placeholder="Password"
         required
       >
+
       <br>
-      <label for="password-confirm">Confirm Password*</label>
+      <br>
+
+      <label for="password-confirm">*Confirm Password</label>
       <input
         type="password"
         name="password-confirm"
@@ -112,8 +162,9 @@
         placeholder="Confirm Password"
         required
       >
-      <br>
 
+      <br>
+      <br>
 
       <input
         type="checkbox"
@@ -121,10 +172,11 @@
         id="terms"
         required
       >
-      <label for="terms">Terms* <a
+      <label for="terms">*You are required to agree to the <a
           href=""
           title="terms and conditions"
         >terms and conditions</a></label>
+
       <br>
 
       <input
@@ -132,7 +184,8 @@
         name="subscribe"
         id="subscribe"
       >
-      <label for="subscribe"><i>we will send you emails</i></label>
+      <label for="subscribe">Agree to this and <i>we will send you emails</i></label>
+
       <br>
 
       <input
@@ -140,13 +193,17 @@
         name="gdpr-consent"
         id="gdpr-consent"
       >
-      <label for="gdpr-consent">GDPR Consent</label>
+      <label for="gdpr-consent">GDPR generic consent?</label>
+
       <br>
+      <br>
+
       <button
         type="submit"
         name="submit"
         id="submit"
-      >Submit</button>
+      >Create Account</button>
+
       <button
         type="reset"
         name="reset"
@@ -163,6 +220,39 @@
       alt="Image with the text Thank You!"
     >
   </p>
+
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusantium, neque doloremque labore tempora ad
+    optio, quam assumenda soluta blanditiis maiores eius ut officia nam adipisci laudantium illo quibusdam corporis?
+  </p>
+
+  <p>
+    <a
+      href=""
+      title="home"
+    >Home</a>
+    |
+    <a
+      href="#create-account"
+      title="create-account"
+    ><b>Create Account</b></a>
+    |
+    <a
+      href=""
+      title="your-account"
+    >Your Account</a>
+    |
+    <a
+      href=""
+      title="customer-service"
+    >Customer Service</a>
+    |
+    <a
+      href=""
+      title="contact"
+    >Contact</a>
+  </p>
+
   <div
     class="pixeltab-host"
     id="html01-04-05"

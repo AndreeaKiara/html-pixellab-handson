@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Julius Sans One';
+    src: url('../fonts/JuliusSansOne-Regular.woff2') format('woff2'),
+        url('../fonts/JuliusSansOne-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+      url('../fonts/Roboto-Regular.woff') format('woff');
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+h1 {
+  color: red;
+  font-size: 35px;
+  font-family: 'Julius Sans One';
+}
+
+h2 {
+  font-family: 'Julius Sans One';
+  font-size: 32px;
+  color: purple;
+  text-decoration: underline;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 28px;
+  color: green;
+}
+
+p {
+  line-height: 23px;
+}
+
+ol a {
+  font-weight: bold;
+}
+
+ul li {
+  font-family: 'Julius Sans One';
+  line-height: 25px;
+}

@@ -29,8 +29,10 @@
   position: sticky;
   background-color: green;
   text-align: center;
+  top: 8px;
   padding: 8px 0;
   color: white;
+  z-index: 1;
 }
 
 .legend {
